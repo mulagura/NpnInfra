@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
 
   // ref link
   // https://www.templatemonster.com/demo/53901.html
-  
+  //https://www.youtube.com/watch?time_continue=416&v=3jt-J4Rc__M
+
 }
