@@ -1,0 +1,11 @@
+#contactCss{
+  display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+agm-map {
+      height: 300px;
+    }

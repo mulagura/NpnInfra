@@ -13,6 +13,10 @@ import { AppRoutingModule }  from './app.routing.module';
 //service
 import { AppService, WallService } from './app.service';
 
+//maps
+import { AgmCoreModule } from '@agm/core';
+
+
 @NgModule({
   declarations: [
 
@@ -24,7 +28,11 @@ import { AppService, WallService } from './app.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCWhUZT3eN-mf9JkaSvqS71U93VKkPm-D8'
+    })
+
   ],
   providers: [AppService,WallService],
   bootstrap: [AppComponent]
